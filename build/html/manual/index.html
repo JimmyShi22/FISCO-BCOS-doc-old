@@ -1,0 +1,389 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Manual &mdash; FISCO-BCOS 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> FISCO-BCOS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Manual</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FISCO-BCOS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Manual</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/manual/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="manual">
+<h1>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="manual.html">FISCO BCOS区块链操作手册</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">前言</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#fisco-bcos">第一章 部署FISCO BCOS环境</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">1.1 机器配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">1.2 部署软件环境</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">1.2.1 安装依赖包</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="manual.html#centos">Centos安装</a></li>
+<li class="toctree-l5"><a class="reference internal" href="manual.html#ubuntu">Ubuntu安装</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#fisco-bcos">1.2.2 安装FISCO BCOS的智能合约编译器</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">1.3 编译源码</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">1.3.1 获取源码</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">1.3.2 安装编译依赖</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">1.3.3 编译</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">1.3.4 安装</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第二章 创建创世节点</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">2.1 创建节点环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#god">2.2 配置god账号</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#god">2.2.1 生成god账号</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#god">2.2.2 配置god账号</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#nodeid">2.3  配置节点身份NodeId</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#cryptomod-json">2.3.1 配置cryptomod.json文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">2.3.2 生成节点身份文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#nodeid">2.3.3 配置创世节点NodeId</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">2.4 配置证书</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">2.4.1 生成根证书</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">2.4.2 生成节点证书</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">2.5 配置相关配置文件</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#genesis-json">2.5.1 配置genesis.json（创世块文件）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#config-json">2.5.2 配置config.json（节点配置文件）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#log-conf">2.5.3 配置log.conf（日志配置文件）</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">2.6 启动创世节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">2.7 验证节点启动</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">2.7.1 验证进程</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">2.7.2 查看日志输出</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第三章 部署合约、调用合约</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">3.1 配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">3.2 部署合约</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">3.2.1 实现合约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">3.2.2 编译+部署合约</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">3.3 调用合约</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">3.3.1 编写合约调用程序</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">3.3.2 调用合约</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第四章 部署系统合约</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">4.1 配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">4.2 部署系统合约</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">4.3 配置系统代理合约地址</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第五章 创建普通节点</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">5.1 创建节点环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#nodeid">5.2  配置节点身份NodeId</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#cryptomod-json">5.2.1 配置cryptomod.json文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">5.2.2 生成节点身份文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#nodeid">5.2.3 配置节点NodeId</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">5.3 配置证书</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">5.3.1 配置根证书</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">5.3.2 生成节点证书</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">5.4 配置相关配置文件</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#config-json">5.4.1 配置config.json（节点配置文件）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#log-conf">5.4.2 配置log.conf（日志配置文件）</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">5.5 启动节点</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第六章 多节点组网</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">6.1 注册节点</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">6.1.1 编写注册配置文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">6.1.2 注册</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">6.1.3 查看入网情况</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">6.1.4 注册更多的节点</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">6.2 查看节点连接</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">6.3 节点退出网络</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第七章 机构证书准入</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">7.1 配置节点证书</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#ssl">7.2 开启所有节点的SSL验证功能</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">7.3 配置机构证书信息</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.3.1 获取证书序列号</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.3.2 编写证书准入状态文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.3.3 将证书准入状态写入系统合约</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">7.4 设置证书验证开关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.4.1 开启全局开关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.4.2 关闭全局开关</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">7.5 修改节点证书准入状态</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.5.1 修改证书准入状态文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">7.5.2 更新证书准入状态</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#faq">7.6 证书常见问题FAQ</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第八章 使用控制台</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">8.1 登录控制台</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">8.2 控制台操作</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">8.2.1 查看区块</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">8.2.2 查看交易</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">8.2.3 查看交易回执</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">8.2.4 查看合约代码</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">8.2.5 查看节点连接</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第九章 其它可选工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">9.1 导出创世块工具</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">9.1.1 停止当前区块链节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">9.1.2 导出创世块</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">9.2 监控连接和块高</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#fisco-bcos">第十章 FISCO BCOS 特性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">第十一章 附录</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">11.1 源码目录结构说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#cryptomod-json">11.2 cryptomod.json说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#genesis-json">11.3 genesis.json说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#config-json">11.4 config.json说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#log-conf">11.5 log.conf说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">11.6 证书准入状态文件说明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">11.7 系统合约介绍</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">11.7.1 系统代理合约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">11.7.2 节点管理合约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">11.7.3 机构证书合约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">11.7.4 权限管理合约</a></li>
+<li class="toctree-l4"><a class="reference internal" href="manual.html#">11.7.5 全网配置合约</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#">常见问题</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manual.html#">1 脚本执行时，格式错误</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, fisco-dev.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0',
+            LANGUAGE:'CN',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
