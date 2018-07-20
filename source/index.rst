@@ -10,7 +10,7 @@ Welcome to FISCO-BCOS's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    manual/index
+    manual/manual
 
 
 Indices and tables
