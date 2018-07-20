@@ -1,0 +1,5 @@
+site_name: FISCO-BCOS-doc
+pages:
+    - Home: index.md
+    - Manual: manual.md
+theme: readthedocs
