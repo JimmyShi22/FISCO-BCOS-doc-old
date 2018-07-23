@@ -1,4 +1,5 @@
 site_name: FISCO-BCOS
+maxdepth: 2
 pages:
     - <font size = "3" color = "">FISCO-BCOS入门</font>: 
         - 介绍 : getstart/introduction.md
@@ -22,13 +23,15 @@ pages:
         - 群签名/环签名 : feature/启用_关闭群签名环签名ethcall.md
         - UTXO转账模型 : feature/以太坊上基于UTXO模型的转账交易方案使用手册.md
         - 弹性联盟链共识框架 : feature/弹性联盟链共识框架说明文档.md
-        - 国密版FISCO-BCOS : feature/国密操作文档.md
         - 其它特性 : 
             - 同态加密 : feature/同态加密说明文档.md
             - EthCall : feature/EthCall说明文档.md
             - 监控统计 : feature/监控统计日志说明文档.md
             - SSL节点连接管理 : feature/SSL节点管理与连接控制.md
             - 分布式文件系统 : feature/分布式文件系统使用说明.md
+    - <font size = "3" color = "">国密版FISCO-BCOS</font> :
+        - 使用文档: guomi/国密操作文档.md
+        - 国密版web3sdk : guomi/guomi_web3sdk.md 
     - <font size = "3" color = "">Wiki知识库</font>:
         - 特性介绍 : wiki/特性介绍.md
         - 应用案例 : wiki/应用案例.md
@@ -46,4 +49,5 @@ pages:
 
 repo_url: https://github.com/FISCO-BCOS
 copyright: © 2018. All rights reserved.
+#markdown_extensions: [smartypants, Markdown-LaTeX]
 theme: readthedocs
