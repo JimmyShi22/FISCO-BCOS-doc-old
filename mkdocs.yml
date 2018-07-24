@@ -3,7 +3,7 @@ maxdepth: 2
 pages:
     - <font size = "3" color = "">FISCO-BCOS入门</font>: 
         - 介绍 : getstart/introduction.md
-        - 环境配置 : getstart/setup.md
+        - 环境 : getstart/setup.md
         - 安装 : getstart/install.md
         - 配置 : getstart/setting.md 
         - 启动 : getstart/start.md
